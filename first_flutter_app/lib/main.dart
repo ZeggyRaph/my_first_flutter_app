@@ -7,6 +7,8 @@ void main() => runApp(
         home: Scaffold(
           appBar: AppBar(
             title: Text('Scaffold Demo'),
+            // To change the appBar background color
+            backgroundColor: Colors.blueGrey[900],
           ),
         ),
       ),
