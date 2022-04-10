@@ -16,9 +16,7 @@ void main() => runApp(
               Center(
             child: Image(
               //image is obtained via network
-              image: NetworkImage(
-                  'https://th.bing.com/th/id/OIP.cNyVGmuOU3eoLZpSVOtGbwHaFj?pid=ImgDet&rs=1'),
-            ),
+              image: AssetImage('images/diamond.png')
           ),
           //changes the bgcolor of the body
           backgroundColor: Colors.blueGrey,
